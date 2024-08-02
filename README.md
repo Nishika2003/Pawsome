@@ -15,7 +15,7 @@ Pawsome is a comprehensive pet adoption website designed to connect prospective 
 
 ## Features
 
-- **User Registration & Authentication**: Secure signup and login for users.
+- **User Registration & Authentication**: Secure signup and login for users. (Using JWT Tokens)
 - **Pet Listings**: Browse and search through available pets for adoption.
 - **CRUD Operations**: Create, Read, Update, and Delete pet listings.
 - **Responsive Design**: Mobile-friendly interface for easy access on all devices.
