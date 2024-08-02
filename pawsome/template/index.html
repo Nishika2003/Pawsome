@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Paw</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">Pawsome</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="signin.html">Sign In</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Pet Categories</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">Dogs</a>
+        </li>
+
+        <li>
+          <a href="index.html">Cats</a>
+        </li>
+
+        <li>
+          <a href="index.html">Birds</a>
+        </li>
+
+        <li>
+          <a href="index.html">Fish</a>
+        </li>
+
+        <li>
+          <a href="index.html">Rabbits</a>
+        </li>
+
+        <li>
+          <a href="index.html">Other</a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpg" alt="product" />
+              <div class="product-name">Snoopy
+              </div>
+              <div class="product-color">Colour: Brown & white</div><br>
+              <div class="product-category">Category: Dogs </div>
+              <div class="product-breed">Breed: ShihTzu </div>
+              <div class="product-age">Age: 1 year </div><br>
+              <div class="product-description">Snoopy is a very good, loyal animal, you want to keep in your house.</div>
+              <button class="adopt-button">
+                <a href="product.html">Adopt</a></button><br>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpg" alt="product" />
+              <div class="product-name">Snoopy
+              </div>
+              <div class="product-color">Colour: Brown & white</div><br>
+              <div class="product-category">Category: Dogs </div>
+              <div class="product-breed">Breed: ShihTzu </div>
+              <div class="product-age">Age: 1 year </div><br>
+              <div class="product-description">Snoopy is a very good, loyal animal, you want to keep in your house.</div>
+              <button class="adopt-button">
+                <a href="product.html">Adopt</a></button><br>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpg" alt="product" />
+              <div class="product-name">Snoopy
+              </div>
+              <div class="product-color">Colour: Brown & white</div><br>
+              <div class="product-category">Category: Dogs </div>
+              <div class="product-breed">Breed: ShihTzu </div>
+              <div class="product-age">Age: 1 year </div><br>
+              <div class="product-description">Snoopy is a very good, loyal animal, you want to keep in your house.</div>
+              <button class="adopt-button">
+                <a href="product.html">Adopt</a></button><br>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpg" alt="product" />
+              <div class="product-name">Snoopy
+              </div>
+              <div class="product-color">Colour: Brown & white</div><br>
+              <div class="product-category">Category: Dogs </div>
+              <div class="product-breed">Breed: ShihTzu </div>
+              <div class="product-age">Age: 1 year </div><br>
+              <div class="product-description">Snoopy is a very good, loyal animal, you want to keep in your house.</div>
+              <button class="adopt-button">
+                <a href="product.html">Adopt</a></button><br>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpg" alt="product" />
+              <div class="product-name">Snoopy
+              </div>
+              <div class="product-color">Colour: Brown & white</div><br>
+              <div class="product-category">Category: Dogs </div>
+              <div class="product-breed">Breed: ShihTzu </div>
+              <div class="product-age">Age: 1 year </div><br>
+              <div class="product-description">Snoopy is a very good, loyal animal, you want to keep in your house.</div>
+              <button class="adopt-button">
+                <a href="product.html">Adopt</a></button><br>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpg" alt="product" />
+              <div class="product-name">Snoopy
+              </div>
+              <div class="product-color">Colour: Brown & white</div><br>
+              <div class="product-category">Category: Dogs </div>
+              <div class="product-breed">Breed: ShihTzu </div>
+              <div class="product-age">Age: 1 year </div><br>
+              <div class="product-description">Snoopy is a very good, loyal animal, you want to keep in your house.</div>
+              <button class="adopt-button">
+                <a href="product.html">Adopt</a></button><br>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+      MERN PROJECT
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>

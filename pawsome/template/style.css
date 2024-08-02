@@ -1,0 +1,153 @@
+html{
+    font-size: 62.5%; 
+    box-sizing: border-box;
+  }
+  body{
+    font: 1.6rem Helvetica;
+    height: 100vh;
+    margin: 0;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+  }
+  .header{
+    grid-area: header;
+    background-color: #fff956;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  .brand a{
+    color: #890f9b;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .header-links a{
+    color:#890f9b;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+  
+  }
+  .header-links a:hover{
+    color:#ff8000;
+  }
+  .main{
+    grid-area: main;
+    background-image: url('images/pawbg.png'); 
+    background-size: cover; 
+  }
+  .footer{
+    grid-area: footer;
+    background-color: #fd9365;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color:#ff8000
+  }
+  /* Home Screen */
+  .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .products li {
+    list-style-type: none;
+    padding: 0;
+    flex: 0 1 34rem;
+    margin: 1rem;
+    height: 60rem;
+    border-bottom: .1rem #c0c0c0 solid;
+  }
+  .product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .product-name{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .product-color{
+    font-size: 1.2rem;
+    color:#3d3d3d;
+  }
+  .product-breed{
+    font-size: 1.2 rem;
+    color:#3d3d3d;
+  }
+  .product-age{
+    font-size: 1.2 rem;
+    color: #3d3d3d;
+  }
+  .product-category{
+    font-size: 1.2 rem;
+    color:#3d3d3d;
+  }
+  .product-image{
+    max-width: 25rem;
+    max-height: 30rem;
+  }
+  .product-description{
+    margin-bottom: 1rem;
+  }
+  /* Sidebar */
+  
+  .brand button {
+    font-size: 3rem;
+    padding: .5rem;
+    background: none;
+    border: none;
+    color:#890f9b;
+    cursor: pointer;
+  }
+  .sidebar{
+    position: fixed;
+    transform: translateX(-30rem);
+    width: 30rem;
+    background-color: white;
+    height: 100%;
+  }
+  .sidebar.open{
+    transform: translateX(0);
+  }
+  
+  .sidebar-close-button{
+    border-radius: 50%;
+    border: .1rem #000000 solid;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    font-size: 2rem;
+    padding-top: 0;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: 1.5rem
+  }
+  .adopt-button{
+    width: 10rem;
+    height: 4rem;
+    background-color: #fd9365;
+    border: none;
+    align-self: center;
+  }
+  
+  
